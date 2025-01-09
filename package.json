@@ -1,0 +1,22 @@
+{
+  "name": "er",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@iconify-json/mdi": "^1.2.2",
+    "@nuxt/devtools": "latest",
+    "nuxt": "^3.9.0"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.11.0",
+    "@pinia/nuxt": "^0.5.0",
+    "gojs": "^3.0.16"
+  }
+}
